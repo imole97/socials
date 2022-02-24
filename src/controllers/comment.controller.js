@@ -1,5 +1,10 @@
 const Comment = require('../models/comment.model');
 
+// instruction
+// clone the repository
+// run `git remote remove origin`
+// then you can add your remote repository 
+
 class CommentController {
     static create = async (req, res) => {
         try {
